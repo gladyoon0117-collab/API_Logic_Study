@@ -5,6 +5,7 @@
 ## 실습 코드 분석
 : AI와 함께 설계한 iTunes Search API 활용 데이터 수집 로직
 
+```python
 import requests
 def search_music(artist_name):
     url = f"https://itunes.apple.com/search?term={artist_name}&entity=song&limit=3"
@@ -29,7 +30,7 @@ def search_music(artist_name):
             print("-" * 50)
     else:
         print("API 통신 에러: 데이터를 불러올 수 없습니다.")
-search_music("xdinary heroes")
+search_music("xdinary heroes")```
 
 ## 기획자 관점에서 본 VS Code 주요 기능
 - **Edit Area**: 기획 로직을 파이썬 코드로 구현하는 공간.
