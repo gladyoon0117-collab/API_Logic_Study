@@ -30,7 +30,8 @@ def search_music(artist_name):
             print("-" * 50)
     else:
         print("API 통신 에러: 데이터를 불러올 수 없습니다.")
-search_music("xdinary heroes")```
+search_music("xdinary heroes")
+```
 
 ## 기획자 관점에서 본 VS Code 주요 기능
 - **Edit Area**: 기획 로직을 파이썬 코드로 구현하는 공간.
@@ -58,9 +59,7 @@ search_music("xdinary heroes")```
 - `for song in results:`: 받아온 3개의 곡 정보 뭉치에서 하나씩 꺼내어 처리.
 - `song.get('trackName')`: 데이터 쌍 중에서 'trackName'이라는 **Key**를 찾아 실제 곡 제목(**Value**)을 가져옴.
 
----
-
-## 💡 주요 개념 정리
+## 주요 개념 정리
 - **파라미터(Parameter)**: 함수에 전달하는 조건값. 이 값이 바뀌면 결과도 바뀜 (예: 아티스트명).
 - **파싱(Parsing)**: 받아온 거대한 데이터 뭉치를 기획에 필요한 정보(곡명, 이미지 등)로 쪼개고 정리하는 과정.
 - **상태 코드(200)**: API 통신이 성공적으로 이루어졌음을 뜻하는 약속된 숫자.
