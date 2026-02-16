@@ -54,7 +54,7 @@ search_music("xdinary heroes")
   - `~의 안에 있는` (소유와 위치) 혹은 `~해라` (기능 실행)를 뜻함. 데이터 구조 안으로 깊게 파고들거나 특정 동작을 수행할 때 사용
 - **상태 코드(200)**: API 통신이 성공적으로 이루어졌음을 뜻하는 약속된 숫자.
 
-## API 로직 Study
+## 로직 Study
 - **`pip3 install requests`**: 배달 앱 설치와 같음. 데이터를 가져오는 데 필요한 'requests'라는 부품을 내 컴퓨터에 설치하는 과정.
 - **`import requests`**: 설치한 'requests' 부품을 상자에서 꺼내 현재 코드 파일로 불러오기.
 - **`def search_music(artist_name):`**: '음악 검색'이라는 기능을 정의(Define). 이때 '아티스트 이름'이라는 데이터가 반드시 필요하다고 설정함.
